@@ -1,3 +1,43 @@
-# _config.yml
+# site settings
+title: Earth
+subtitle: Cut
+email: info@earth-cut.de
+description: Dokumentarfilm - Natur und Gesellschaft
+# baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author: Mi Steinbach
+street_address: Rothenburger Str. 15
+city: 51103 Köln
+# zip_code:  
+country: Deutschland
+# phone: 
 
-title: "Jekyll Actions Demo"
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 4
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: 
+  GitLab:
+  Google-Plus: 
+  Instagram: https://instagram.com/schwarztonnensand_film
+  LinkedIn: https://www.linkedin.com/in/mi-steinbach-54968a254
+  Twitter: 
+  Facebook:
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
